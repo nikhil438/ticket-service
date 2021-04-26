@@ -18,7 +18,7 @@ router.get('/earned', async (req, res) => {
         res.json(bookingDetails)
     } catch (error) {
         console.error(error.message, error)
-        res.status(500).json({ error: 'Error occured while confirming booking' })
+        res.status(500).json({ error: 'Error occured while fetching earned analytics' })
     }
 })
 
@@ -36,7 +36,7 @@ router.get('/visited', async (req, res) => {
         res.json(bookingDetails)
     } catch (error) {
         console.error(error.message, error)
-        res.status(500).json({ error: 'Error occured while confirming booking' })
+        res.status(500).json({ error: 'Error occured fetching visited analytics' })
     }
 })
 

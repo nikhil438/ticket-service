@@ -508,7 +508,7 @@ module.exports = {
                                     $ref: '#/components/schemas/Error'
                                 },
                                 example: {
-                                    error: 'Error occured while fetching booking details',
+                                    error: 'Error occured fetching visited analytics',
                                 }
                             }
                         }
@@ -623,7 +623,7 @@ module.exports = {
                                     $ref: '#/components/schemas/Error'
                                 },
                                 example: {
-                                    error: 'Error occured while fetching booking details',
+                                    error: 'Error occured fetching earned analytics',
                                 }
                             }
                         }
